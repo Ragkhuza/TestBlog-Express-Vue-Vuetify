@@ -8,7 +8,7 @@
     <v-spacer></v-spacer>
     <div class="hidden-sm-and-down">
       <v-btn flat>About</v-btn>
-      <v-btn flat>Contact</v-btn>
+      <router-link to="/contact"><v-btn flat>Contact</v-btn></router-link>
       <router-link to="/login"><v-btn flat>Login</v-btn></router-link>
     </div>
   </v-toolbar>
